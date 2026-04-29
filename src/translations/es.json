@@ -33,6 +33,8 @@
       "card_padding_desc": "Espaciado interno dentro de la tarjeta",
       "card_margin": "Margen de tarjeta",
       "card_margin_desc": "Espaciado externo alrededor de la tarjeta",
+      "card_height": "Card Height",
+      "card_height_desc": "Fix the card height to prevent page scrolling (e.g. 800px, 100vh, calc(100vh - 56px)). Pair with Content Overflow to clip content.",
       "unit_px": "px",
       "reset_default": "Restablecer a predeterminado",
       "card_shadow_enabled": "Enable Shadow",

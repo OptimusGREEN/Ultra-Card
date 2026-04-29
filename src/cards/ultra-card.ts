@@ -981,6 +981,15 @@ export class UltraCard extends LitElement {
       } else {
         this.style.removeProperty('--ha-card-border-radius');
       }
+
+      // Reflect card_height to the host element so HA's page layout honours the
+      // fixed height and does not add a page-level scrollbar.
+      const cardHeight = newConfig?.card_height;
+      if (cardHeight) {
+        this.style.height = cardHeight;
+      } else {
+        this.style.removeProperty('height');
+      }
     }
 
     // Handle Home Assistant state changes for logic condition evaluation
@@ -1791,6 +1800,11 @@ export class UltraCard extends LitElement {
     // Apply overflow (clips content that extends beyond card boundaries)
     if (this.config.card_overflow) {
       styles.push(`overflow: ${this.config.card_overflow}`);
+    }
+
+    // Apply fixed height (prevents page-level scrolling when set alongside overflow: hidden)
+    if (this.config.card_height) {
+      styles.push(`height: ${this.config.card_height}`);
     }
 
     // Apply custom shadow

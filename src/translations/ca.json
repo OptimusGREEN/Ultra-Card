@@ -143,6 +143,8 @@
       "card_padding_desc": "Espaiat intern dins de la targeta",
       "card_margin": "Marge de la targeta",
       "card_margin_desc": "Espaiat extern al voltant de la targeta",
+      "card_height": "Card Height",
+      "card_height_desc": "Fix the card height to prevent page scrolling (e.g. 800px, 100vh, calc(100vh - 56px)). Pair with Content Overflow to clip content.",
       "card_shadow_enabled": "Ombra paral·lela personalitzada",
       "card_shadow_enabled_desc": "Habilita l'ombra personalitzada per a la targeta",
       "card_shadow_color": "Color de l'ombra",

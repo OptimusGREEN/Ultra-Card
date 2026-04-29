@@ -28,6 +28,8 @@
       "card_padding_desc": "Wewnętrzne odstępy w karcie",
       "card_margin": "Margines karty",
       "card_margin_desc": "Zewnętrzne odstępy wokół karty",
+      "card_height": "Card Height",
+      "card_height_desc": "Fix the card height to prevent page scrolling (e.g. 800px, 100vh, calc(100vh - 56px)). Pair with Content Overflow to clip content.",
       "unit_px": "px",
       "reset_default": "Przywróć domyślne",
       "reset_default_value": "Przywróć domyślne ({value})",

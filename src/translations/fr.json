@@ -32,6 +32,8 @@
       "card_padding_desc": "Espacement interne à l'intérieur de la carte",
       "card_margin": "Marge de la carte",
       "card_margin_desc": "Espacement externe autour de la carte",
+      "card_height": "Card Height",
+      "card_height_desc": "Fix the card height to prevent page scrolling (e.g. 800px, 100vh, calc(100vh - 56px)). Pair with Content Overflow to clip content.",
       "unit_px": "px",
       "reset_default": "Réinitialiser par défaut",
       "reset_default_value": "Réinitialiser par défaut ({value})",

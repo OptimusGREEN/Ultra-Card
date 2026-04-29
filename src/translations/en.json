@@ -143,6 +143,8 @@
       "card_padding_desc": "Internal spacing within the card",
       "card_margin": "Card Margin",
       "card_margin_desc": "External spacing around the card",
+      "card_height": "Card Height",
+      "card_height_desc": "Fix the card height to prevent page scrolling (e.g. 800px, 100vh, calc(100vh - 56px)). Pair with Content Overflow to clip content.",
       "card_shadow_enabled": "Custom Drop Shadow",
       "card_shadow_enabled_desc": "Enable custom shadow for the card",
       "card_shadow_color": "Shadow Color",

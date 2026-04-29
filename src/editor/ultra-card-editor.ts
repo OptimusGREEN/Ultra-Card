@@ -1605,6 +1605,42 @@ export class UltraCardEditor extends LitElement {
                       </button>
                     </div>
                   </div>
+
+                  <div class="setting-item">
+                    <label>${localize('editor.fields.card_height', lang, 'Card Height')}</label>
+                    <div class="setting-description">
+                      ${localize(
+                        'editor.fields.card_height_desc',
+                        lang,
+                        'Fix the card height to prevent page scrolling (e.g. 800px, 100vh, calc(100vh - 56px)). Pair with Content Overflow → Hidden to clip content.'
+                      )}
+                    </div>
+                    <div class="input-with-unit">
+                      <input
+                        type="text"
+                        .value=${this.config.card_height ?? ''}
+                        placeholder="e.g. 100vh"
+                        @input=${(e: Event) => {
+                          const target = e.target as HTMLInputElement;
+                          const value = target.value.trim();
+                          this._updateConfig({
+                            card_height: value === '' ? undefined : value,
+                          });
+                        }}
+                      />
+                      <button
+                        class="reset-btn"
+                        @click=${() => this._updateConfig({ card_height: undefined })}
+                        title=${localize(
+                          'editor.fields.reset_default_value',
+                          lang,
+                          'Reset to default ({value})'
+                        ).replace('{value}', 'auto')}
+                      >
+                        ↺
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             ` : ''}

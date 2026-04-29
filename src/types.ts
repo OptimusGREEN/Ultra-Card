@@ -5526,6 +5526,7 @@ export interface UltraCardConfig {
   card_padding?: number | undefined;
   card_margin?: number | undefined;
   card_overflow?: 'visible' | 'hidden' | 'scroll' | 'auto' | undefined;
+  card_height?: string | undefined; // CSS height value, e.g. '800px', '100vh', 'calc(100vh - 56px)'
   // Card shadow properties
   card_shadow_enabled?: boolean | undefined;
   card_shadow_color?: string | undefined;

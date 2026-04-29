@@ -28,6 +28,8 @@
       "card_padding_desc": "Spaziatura interna all'interno della scheda",
       "card_margin": "Margine della scheda",
       "card_margin_desc": "Spaziatura esterna intorno alla scheda",
+      "card_height": "Card Height",
+      "card_height_desc": "Fix the card height to prevent page scrolling (e.g. 800px, 100vh, calc(100vh - 56px)). Pair with Content Overflow to clip content.",
       "unit_px": "px",
       "reset_default": "Ripristina predefinito",
       "reset_default_value": "Ripristina predefinito ({value})",

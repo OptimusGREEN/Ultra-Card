@@ -28,6 +28,8 @@
       "card_padding_desc": "Intern avstand innenfor kortet",
       "card_margin": "Kort marg",
       "card_margin_desc": "Ekstern avstand rundt kortet",
+      "card_height": "Card Height",
+      "card_height_desc": "Fix the card height to prevent page scrolling (e.g. 800px, 100vh, calc(100vh - 56px)). Pair with Content Overflow to clip content.",
       "unit_px": "px",
       "reset_default": "Tilbakestill til standard",
       "reset_default_value": "Tilbakestill til standard ({value})",
